@@ -1,0 +1,33 @@
+pull the centos docker image
+
+create a container and enter into it and fire bellow commands
+
+yum install python3 python3-pip                         //to install python3 and pip3
+
+alternatives --set python /usr/bin/python3              //to set python3 as default
+
+pythn -V                                                // to check python version
+
+python3 -m pip install ansible                          // to install ansible
+
+ ansible --version                                      // to check ansible version
+ 
+ 
+ Reference   urls
+---------------------------------------
+
+https://linuxconfig.org/install-ansible-on-redhat-8
+
+
+
+ ===============================================================================================
+
+configure the master with slave with key 
+
+
+yum install -y openssh                                    // to install openssh to generate key
+
+ssh-keygen                                                // to generate key
+
+
+
